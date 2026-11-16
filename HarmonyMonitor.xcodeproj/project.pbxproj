@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48F8A5B9037D953451343ECE /* App Sources · HarmonyMonitor/HarmonyMonitorApp.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = C663B03EA30BC93A1B769A12;
+		};
+		06F6BB23DC724CDBBD2126C1 /* App Sources · HarmonyCore/BMSDataModel.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = F9DD4DC31B24767AF1D9F97E;
+		};
+		6BDE418753FDBF6F8CC5A9D7 /* App Sources · HarmonyCore/VESCPacketCodec.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = CFD5E68A9848A33BA7AA4D3C;
+		};
+		444A1733C4F5B2E189CE42B1 /* App Sources · HarmonyCore/VESCProtocol.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 73109B59B057F2AC17949429;
+		};
+		D8AC58AF2CEB55329B6FBC34 /* App Sources · HarmonyMonitor/Bluetooth/BLEManager.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = B4E20FAB87D9ED830332BA95;
+		};
+		8DA255902B765ADE2AD8024B /* App Sources · HarmonyMonitor/Bluetooth/TelemetryManager.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 0F7DFEEC452932B5E3C5F137;
+		};
+		C58CDCF22146DF5DCA58605E /* App Sources · HarmonyMonitor/Views/CellVoltageView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 510310ED7774A5689D9F79F2;
+		};
+		C7F21FAB11B1DCC3032E78FD /* App Sources · HarmonyMonitor/Views/DashboardView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = E580692B32C310D1EB9D615F;
+		};
+		A1573592CFFBC52CFC9D3B95 /* App Sources · HarmonyMonitor/Views/DevicesView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = BF3D9322076139F491CF097E;
+		};
+		D4DB476BB1416DB2B45CAE32 /* App Sources · HarmonyMonitor/Views/DiagnosticsView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 45CB99091217B89743B51B93;
+		};
+		98CA5A5FB519943F12E50238 /* App Sources · HarmonyMonitor/Views/MonitorTheme.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 5FD51E51D36E48ADD7550C94;
+		};
+		A8833E95FC061FA8C2220F8D /* App Sources · HarmonyMonitor/Views/SettingsView.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 21824680864931388565B0D8;
+		};
+		4E5C18427C4AA77B2A8F4634 /* App Resources · HarmonyMonitor/Assets.xcassets */ = {
+			isa = PBXBuildFile;
+			fileRef = 067D0A41F03BCA2306CF9E28;
+		};
+		EC4DF7360C286927D63D3310 /* App Resources · HarmonyMonitor/PrivacyInfo.xcprivacy */ = {
+			isa = PBXBuildFile;
+			fileRef = 1DF87F52E009A855D57003AC;
+		};
+		42E158F4AD195572A9355A8D /* Test Sources · Tests/HarmonyCoreTests/Fixtures.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 319F4C883A32BB529237BD56;
+		};
+		58BF9EF80E63C4C85A9739D3 /* Test Sources · Tests/HarmonyCoreTests/PacketTests.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 57F29DB24434474520854328;
+		};
+		DC88C0D3F0EBDD5019FBB0AE /* Test Sources · Tests/HarmonyCoreTests/TelemetryTests.swift */ = {
+			isa = PBXBuildFile;
+			fileRef = 87195023AC1C1F421CFFE343;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC353EBAD0CE91A6F482FB17 /* App target reference */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 985959785319747668373CC6;
+			proxyType = 1;
+			remoteGlobalIDString = 263715B94C4CD2F0220A3890;
+			remoteInfo = HarmonyMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C663B03EA30BC93A1B769A12 /* HarmonyMonitor/HarmonyMonitorApp.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HarmonyMonitorApp.swift;
+			sourceTree = "<group>";
+		};
+		8792BB500C32C3548BC2BDC6 /* HarmonyMonitor/Info.plist */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		1DF87F52E009A855D57003AC /* HarmonyMonitor/PrivacyInfo.xcprivacy */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = PrivacyInfo.xcprivacy;
+			sourceTree = "<group>";
+		};
+		067D0A41F03BCA2306CF9E28 /* HarmonyMonitor/Assets.xcassets */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		F9DD4DC31B24767AF1D9F97E /* HarmonyCore/BMSDataModel.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BMSDataModel.swift;
+			sourceTree = "<group>";
+		};
+		CFD5E68A9848A33BA7AA4D3C /* HarmonyCore/VESCPacketCodec.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VESCPacketCodec.swift;
+			sourceTree = "<group>";
+		};
+		73109B59B057F2AC17949429 /* HarmonyCore/VESCProtocol.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VESCProtocol.swift;
+			sourceTree = "<group>";
+		};
+		B4E20FAB87D9ED830332BA95 /* HarmonyMonitor/Bluetooth/BLEManager.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BLEManager.swift;
+			sourceTree = "<group>";
+		};
+		0F7DFEEC452932B5E3C5F137 /* HarmonyMonitor/Bluetooth/TelemetryManager.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TelemetryManager.swift;
+			sourceTree = "<group>";
+		};
+		510310ED7774A5689D9F79F2 /* HarmonyMonitor/Views/CellVoltageView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CellVoltageView.swift;
+			sourceTree = "<group>";
+		};
+		E580692B32C310D1EB9D615F /* HarmonyMonitor/Views/DashboardView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DashboardView.swift;
+			sourceTree = "<group>";
+		};
+		BF3D9322076139F491CF097E /* HarmonyMonitor/Views/DevicesView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DevicesView.swift;
+			sourceTree = "<group>";
+		};
+		45CB99091217B89743B51B93 /* HarmonyMonitor/Views/DiagnosticsView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DiagnosticsView.swift;
+			sourceTree = "<group>";
+		};
+		5FD51E51D36E48ADD7550C94 /* HarmonyMonitor/Views/MonitorTheme.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MonitorTheme.swift;
+			sourceTree = "<group>";
+		};
+		21824680864931388565B0D8 /* HarmonyMonitor/Views/SettingsView.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SettingsView.swift;
+			sourceTree = "<group>";
+		};
+		319F4C883A32BB529237BD56 /* Tests/HarmonyCoreTests/Fixtures.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = Fixtures.swift;
+			sourceTree = "<group>";
+		};
+		57F29DB24434474520854328 /* Tests/HarmonyCoreTests/PacketTests.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PacketTests.swift;
+			sourceTree = "<group>";
+		};
+		87195023AC1C1F421CFFE343 /* Tests/HarmonyCoreTests/TelemetryTests.swift */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TelemetryTests.swift;
+			sourceTree = "<group>";
+		};
+		56DE600BFBD2C5E56109EAB8 /* HarmonyMonitor.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = HarmonyMonitor.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC512F0505C72DDF86EC37DC /* HarmonyMonitorTests.xctest */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = HarmonyMonitorTests.xctest;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7324A4AEF6D96D59891E139 /* App Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B852038FB2EF52B4A9A336BA /* Test Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E1D4FB5D87F65EBD0BF50E /* HarmonyCore */ = {
+			isa = PBXGroup;
+			path = HarmonyCore;
+			children = (
+				F9DD4DC31B24767AF1D9F97E,
+				CFD5E68A9848A33BA7AA4D3C,
+				73109B59B057F2AC17949429,
+			);
+			sourceTree = "<group>";
+		};
+		8BB29098B369BFCD0069EEDD /* Bluetooth */ = {
+			isa = PBXGroup;
+			path = Bluetooth;
+			children = (
+				B4E20FAB87D9ED830332BA95,
+				0F7DFEEC452932B5E3C5F137,
+			);
+			sourceTree = "<group>";
+		};
+		69C404591E99D86FD11F5AE1 /* Views */ = {
+			isa = PBXGroup;
+			path = Views;
+			children = (
+				510310ED7774A5689D9F79F2,
+				E580692B32C310D1EB9D615F,
+				BF3D9322076139F491CF097E,
+				45CB99091217B89743B51B93,
+				5FD51E51D36E48ADD7550C94,
+				21824680864931388565B0D8,
+			);
+			sourceTree = "<group>";
+		};
+		0A8F67B97E525B7EFE3F2186 /* HarmonyCoreTests */ = {
+			isa = PBXGroup;
+			path = HarmonyCoreTests;
+			children = (
+				319F4C883A32BB529237BD56,
+				57F29DB24434474520854328,
+				87195023AC1C1F421CFFE343,
+			);
+			sourceTree = "<group>";
+		};
+		A2E0EE94F87F59E30CFBBB74 /* HarmonyMonitor */ = {
+			isa = PBXGroup;
+			path = HarmonyMonitor;
+			children = (
+				C663B03EA30BC93A1B769A12,
+				8BB29098B369BFCD0069EEDD,
+				69C404591E99D86FD11F5AE1,
+				067D0A41F03BCA2306CF9E28,
+				8792BB500C32C3548BC2BDC6,
+				1DF87F52E009A855D57003AC,
+			);
+			sourceTree = "<group>";
+		};
+		E5C9D7030BADA2FE792AD7E4 /* Tests */ = {
+			isa = PBXGroup;
+			path = Tests;
+			children = (
+				0A8F67B97E525B7EFE3F2186,
+			);
+			sourceTree = "<group>";
+		};
+		4EDC8BFAFC6BD936B849F38C /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				56DE600BFBD2C5E56109EAB8,
+				EC512F0505C72DDF86EC37DC,
+			);
+			sourceTree = "<group>";
+		};
+		2A3D9A240C9206964EE7237A /* Project files */ = {
+			isa = PBXGroup;
+			children = (
+				A2E0EE94F87F59E30CFBBB74,
+				71E1D4FB5D87F65EBD0BF50E,
+				E5C9D7030BADA2FE792AD7E4,
+				4EDC8BFAFC6BD936B849F38C,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263715B94C4CD2F0220A3890 /* HarmonyMonitor application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF34D43A8414B1C5EF20D6E;
+			buildPhases = (
+				764780A9BE5D2A2BDEF5BF1D,
+				A7324A4AEF6D96D59891E139,
+				8DF96536761EDDE6912A73CE,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = HarmonyMonitor;
+			productName = HarmonyMonitor;
+			productReference = 56DE600BFBD2C5E56109EAB8;
+			productType = com.apple.product-type.application;
+		};
+		7A87B1395858A36814DCF866 /* HarmonyMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B3D7D71F6958F7D26D3323;
+			buildPhases = (
+				54104FB9A90054E6EF1E0D0D,
+				B852038FB2EF52B4A9A336BA,
+			);
+			buildRules = ();
+			dependencies = (
+				60F17AB2590DA976BB48CF3D,
+			);
+			name = HarmonyMonitorTests;
+			productName = HarmonyMonitorTests;
+			productReference = EC512F0505C72DDF86EC37DC;
+			productType = com.apple.product-type.bundle.unit-test;
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		985959785319747668373CC6 /* Project */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					263715B94C4CD2F0220A3890 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					7A87B1395858A36814DCF866 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 263715B94C4CD2F0220A3890;
+					};
+				};
+			};
+			buildConfigurationList = 9CFF64D8AE28E83EB00193AA;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A3D9A240C9206964EE7237A;
+			productRefGroup = 4EDC8BFAFC6BD936B849F38C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263715B94C4CD2F0220A3890,
+				7A87B1395858A36814DCF866,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF96536761EDDE6912A73CE /* App Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5C18427C4AA77B2A8F4634,
+				EC4DF7360C286927D63D3310,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		764780A9BE5D2A2BDEF5BF1D /* App Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F8A5B9037D953451343ECE,
+				06F6BB23DC724CDBBD2126C1,
+				6BDE418753FDBF6F8CC5A9D7,
+				444A1733C4F5B2E189CE42B1,
+				D8AC58AF2CEB55329B6FBC34,
+				8DA255902B765ADE2AD8024B,
+				C58CDCF22146DF5DCA58605E,
+				C7F21FAB11B1DCC3032E78FD,
+				A1573592CFFBC52CFC9D3B95,
+				D4DB476BB1416DB2B45CAE32,
+				98CA5A5FB519943F12E50238,
+				A8833E95FC061FA8C2220F8D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54104FB9A90054E6EF1E0D0D /* Test Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E158F4AD195572A9355A8D,
+				58BF9EF80E63C4C85A9739D3,
+				DC88C0D3F0EBDD5019FBB0AE,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60F17AB2590DA976BB48CF3D /* Host app dependency */ = {
+			isa = PBXTargetDependency;
+			target = 263715B94C4CD2F0220A3890;
+			targetProxy = EC353EBAD0CE91A6F482FB17;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E20609128BE34B268B1C1700 /* Project Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+			};
+		};
+		06D9FAC4492C016BD6137653 /* Project Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+		};
+		6947E524C2DAB07AB0AD925F /* App Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HarmonyMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonymonitor.telemetry;
+				PRODUCT_NAME = HarmonyMonitor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+			};
+		};
+		470431989E5839FC32F35A62 /* App Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = HarmonyMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonymonitor.telemetry;
+				PRODUCT_NAME = HarmonyMonitor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+			};
+		};
+		26172DBFF28380DEEEADAFC5 /* Tests Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonymonitor.telemetry.tests;
+				PRODUCT_NAME = HarmonyMonitorTests;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmonyMonitor.app/HarmonyMonitor";
+			};
+		};
+		9F4A100B429D3A52A355113B /* Tests Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonymonitor.telemetry.tests;
+				PRODUCT_NAME = HarmonyMonitorTests;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmonyMonitor.app/HarmonyMonitor";
+				ENABLE_TESTABILITY = YES;
+			};
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CFF64D8AE28E83EB00193AA /* Project configurations */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20609128BE34B268B1C1700,
+				06D9FAC4492C016BD6137653,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF34D43A8414B1C5EF20D6E /* App configurations */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6947E524C2DAB07AB0AD925F,
+				470431989E5839FC32F35A62,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B3D7D71F6958F7D26D3323 /* Tests configurations */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26172DBFF28380DEEEADAFC5,
+				9F4A100B429D3A52A355113B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 985959785319747668373CC6 /* Project */;
+}
