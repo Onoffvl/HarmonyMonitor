@@ -91,7 +91,7 @@ jobs:
           app=build/device/Build/Products/Release-iphoneos/HarmonyMonitor.app
           test -f "$app/Info.plist"
           test ! -e "$app/embedded.mobileprovision"
-          xcrun lipo -verify_arch arm64 "$app/HarmonyMonitor"
+          xcrun lipo "$app/HarmonyMonitor" -verify_arch arm64
           mkdir -p build/staging/Payload build/artifacts
           ditto "$app" build/staging/Payload/HarmonyMonitor.app
           (
